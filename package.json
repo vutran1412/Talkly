@@ -1,5 +1,5 @@
 {
-  "name": "Talkly",
+  "name": "talkly",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.4.5",
@@ -23,7 +23,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --watch --mode=development"
   },
   "repository": {
     "type": "git",
