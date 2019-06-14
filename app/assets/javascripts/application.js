@@ -9,7 +9,6 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//= require jquery_ujs
 //= require jquery
 //= require rails-ujs
 //= require activestorage
