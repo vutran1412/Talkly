@@ -38,10 +38,10 @@ class Signup extends React.Component {
                         <input type="text" value={this.state.email} onChange={this.handleInput("email")} />
                     </label>
                     <label>Password:
-                        <input type="text" value={this.state.password} onChange={this.handleInput("password")} />
+                        <input type="password" value={this.state.password} onChange={this.handleInput("password")} />
                     </label>
                     <label>Confirm Password:
-                        <input type="text" value={this.state.passwordConfirm} onChange={this.handleInput("confirmPassword")} />
+                        <input type="password" value={this.state.passwordConfirm} onChange={this.handleInput("passwordConfirm")} />
                     </label>
                     <input type="submit" value="Sign Up" />
                 </form>
